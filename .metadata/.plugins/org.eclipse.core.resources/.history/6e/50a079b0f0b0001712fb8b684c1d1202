@@ -1,0 +1,40 @@
+package hd;
+
+import java.util.Scanner;
+
+public class Narcissus {
+	
+	static int m,n;
+	static int g,s,b;
+	static int narcissus;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()) {
+			m = sc.nextInt();
+			n = sc.nextInt();
+			for (int i=m;i<n;i++) {
+				g = i%10;
+				s = i/10%10;
+				b = i/100;
+				
+				//定义水仙花树
+				narcissus = g*g*g+s*s*s+b*b*b;
+				
+				if (i == narcissus) {
+					num++;
+					System.out.print(i+" ");
+					
+				}
+			}
+			if(num == 0) {
+				System.out.println("no");
+			}
+		}
+		
+	}
+	
+
+
+}

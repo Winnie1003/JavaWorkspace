@@ -1,0 +1,13 @@
+package info;
+
+public class SubString {
+	public static void main(String args[]) {
+		SubString ss = new SubString();
+		String result = ss.mySubString();
+	}
+	
+	public String mySubString(){
+		return null;
+		
+	}
+}

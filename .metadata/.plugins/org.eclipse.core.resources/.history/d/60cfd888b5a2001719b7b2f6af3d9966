@@ -1,0 +1,7 @@
+package info;
+
+public class Ninenine {
+	public static void main(String args[]) {
+		
+	}
+}

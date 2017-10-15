@@ -1,0 +1,11 @@
+package info;
+
+public class Isosceles_Triangle {
+	public static void main(String args[]) {
+		int tier = 4;
+		for(int i=1;i<=tier;i++) {
+			for()
+		}
+		
+	}
+}

@@ -1,0 +1,25 @@
+package info;
+import java.util.*;
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner cin = new Scanner(System.in);
+        int start;
+        int end;
+        int sum = 0;
+        int i;
+
+        while(cin.hasNextInt())
+        {
+            start = cin.nextInt();
+            end = cin.nextInt();
+            for(i=start;i<=end;i++) {
+            	sum += i;
+            }
+            System.out.println(1);
+            System.out.println();
+            System.out.println(sum);
+        }
+    }
+}

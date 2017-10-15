@@ -1,0 +1,37 @@
+package hd;
+
+import java.util.Scanner;  
+
+public class demo{  
+      
+    static int m,n;  
+    static int g,s,b;  
+      
+    public static void main(String[] args) {  
+        Scanner sc=new Scanner(System.in);  
+        int num,numold;  
+        while (sc.hasNext()) {  
+            m=sc.nextInt();  
+            n=sc.nextInt();  
+            numold=0;  
+              
+            for (int i = m; i <=n; i++) {  
+                g=i%10;  
+                s=i%100/10;  
+                b=i/100;  
+                num=g*g*g+s*s*s+b*b*b;  
+                if (num==i){  
+                    if (numold!=0)   
+                        System.out.printf("%d ",numold);  
+                    numold=i;  
+                }  
+            }  
+            if (numold!=0) {  
+                System.out.println(numold);  
+            }else {  
+                System.out.println("no");  
+            }  
+        }  
+    }  
+  
+}  

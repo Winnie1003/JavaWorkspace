@@ -1,0 +1,16 @@
+package info;
+
+public class SubString {
+	public static void main(String args[]) {
+		SubString ss = new SubString();
+		
+		String string = "ÖÐ¹úfun"
+		String result = ss.mySubString();
+		System.out.println(result);
+	}
+	
+	public String mySubString(){
+		return null;
+		
+	}
+}

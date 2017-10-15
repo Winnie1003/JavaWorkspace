@@ -1,0 +1,25 @@
+package info;
+
+public class SubString {
+	public static void main(String args[]) {
+		SubString ss = new SubString();
+		
+		String ostring = "中国abc";
+		byte[] strbyte = ostring.getBytes();
+		//调用mySubString方法
+		String result = ss.mySubString(strbyte, 1, 3);
+		System.out.println(result);
+	}
+	
+	public String mySubString(byte[] bytes,int start,int end){
+		byte[] b;
+		b = new byte[end-start];
+		for(int i=0;start<end;i++) {
+			b[i] = bytes[start];
+			start++;
+		}
+		String r = new String(b);
+		return r;
+		
+	}
+}

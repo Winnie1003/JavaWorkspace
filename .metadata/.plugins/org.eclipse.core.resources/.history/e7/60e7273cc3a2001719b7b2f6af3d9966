@@ -1,0 +1,8 @@
+package info;
+
+public class Isosceles_Triangle {
+	public static void main(String args[]) {
+		
+		
+	}
+}

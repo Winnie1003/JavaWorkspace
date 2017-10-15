@@ -1,0 +1,46 @@
+package info;
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner cin = new Scanner(System.in);
+        int start;
+        int end;
+        int sum = 0;
+        int i;
+
+        while(cin.hasNextInt())
+        {
+            start = cin.nextInt();
+            end = cin.nextInt();
+            for(i=start;i<=end;i++) {
+            	sum += i;
+            }
+            System.out.println(sum);
+            System.out.println();
+        }
+    }
+}
+
+
+import java.util.Scanner;  
+public class Main {  
+    public static void main(String[] args)   
+    {  
+      Scanner sc =new Scanner(System.in);  
+        while (sc.hasNext()) {  
+        int  n  = sc.nextInt();  
+        int SUM =0;  
+        for(int a=1;a<=n;a++)  
+        {  
+         SUM=SUM+a;  
+        }  
+         
+        System.out.println(SUM);  
+         System.out.println();  
+        }     
+               
+    }  
+      
+}

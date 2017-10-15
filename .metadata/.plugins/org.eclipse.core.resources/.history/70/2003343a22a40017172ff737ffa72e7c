@@ -1,0 +1,23 @@
+package info;
+
+public class SubString {
+	public static void main(String args[]) {
+		SubString ss = new SubString();
+		
+		String ostring = "ÖÐ¹úfun";
+		byte[] strbyte = ostring.getBytes();
+		String result = ss.mySubString(ostring, 1, 3);
+		System.out.println(result);
+	}
+	
+	public String mySubString(String ostring,int start,int end){
+		String b[];
+		for(int i=0;i<end;i++) {
+			if(i==start) {
+				b[i] = ostring
+			}
+		}
+		return null;
+		
+	}
+}

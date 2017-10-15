@@ -1,0 +1,25 @@
+package info;
+
+import java.util.Scanner;
+
+public class Sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b,sum;
+		Scanner s = new Scanner(System.in);
+		a = s.nextInt();
+		b = s.nextInt();
+		sum = a+b;
+		System.out.println(sum);
+	}
+
+}
+	int sum = 0;
+	int i;
+    int end = cin.nextInt();
+    for(i=1;i<=end;i++) {
+    	sum += i;
+    }
+    System.out.println(sum);
+    System.out.println();

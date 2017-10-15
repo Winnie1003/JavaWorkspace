@@ -1,0 +1,11 @@
+package info;
+
+public class SubString {
+	public static void main(String args[]) {
+		
+	}
+	
+	public void StringSub() {
+		
+	}
+}
