@@ -1,1 +1,1 @@
-Java is a kind of object-0riented language.
+This is my java workspace here.
